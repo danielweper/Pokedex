@@ -1,8 +1,9 @@
-class Pokemon {
-    val type: Type
-    val secondaryType: Type?
-    val gender: Gender
-    val stats: Stats
-
+class Pokemon(
+    val type: PokemonType
+    val secondaryType: PokemonType?
+    val gender: PokemonGender
+    val stats: PokemonStats
     // sprite
+) {
+
 }
