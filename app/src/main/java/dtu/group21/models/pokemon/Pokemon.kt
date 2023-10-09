@@ -1,3 +1,5 @@
+package dtu.group21.models.pokemon
+
 class Pokemon(
     val type: PokemonType,
     val secondaryType: PokemonType?,
